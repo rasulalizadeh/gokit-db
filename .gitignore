@@ -1,1 +1,5 @@
-go.sum
+.idea/
+.bin/
+.vscode/
+*go.sum
+*.tmp
