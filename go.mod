@@ -1,4 +1,4 @@
-module rasulalizadeh/gokit-db
+module github.com/rasulalizadeh/gokit-db
 
 go 1.15
 

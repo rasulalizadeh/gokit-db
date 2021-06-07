@@ -1,8 +1,9 @@
 package tests
 
 import (
-	"rasulalizadeh/gokit-db/influx"
 	"testing"
+
+	"github.com/rasulalizadeh/gokit-db/influx"
 
 	"github.com/stretchr/testify/assert"
 )

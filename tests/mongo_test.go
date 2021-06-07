@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"rasulalizadeh/gokit-db/mongo"
 	"testing"
 	"time"
+
+	"github.com/rasulalizadeh/gokit-db/mongo"
 
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/bson"
