@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"rasulalizadeh/gokit/database/influx"
-	"github.com/stretchr/testify/assert"
+	"rasulalizadeh/gokit-db/influx"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestInflux2Connect(t *testing.T) {
@@ -34,4 +35,3 @@ func TestQuery(t *testing.T) {
 	adapter := influx.NewInflux2AdapterRootDefaultHost("test", "test")
 	adapter.Query(`from(bucket:"companies")|> range(start: -1h) |> filter(fn: (r) => r._measurement == "stat")`)
 }
-

@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"rasulalizadeh/gokit/database/influx"
-	"github.com/stretchr/testify/assert"
+	"rasulalizadeh/gokit-db/influx"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestInfluxConnect(t *testing.T) {
@@ -14,4 +15,3 @@ func TestInfluxConnect(t *testing.T) {
 	err = adapter.Connect()
 	assert.Nil(t, err)
 }
-
